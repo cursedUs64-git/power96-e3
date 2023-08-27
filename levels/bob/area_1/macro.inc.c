@@ -1,5 +1,5 @@
 // 0x0701104C - 0x070113BE
-const MacroObject bob_seg7_macro_objs[] = {
+const MacroObject bob_area_1_macro_objs[] = {
     MACRO_OBJECT(/*preset*/ macro_chain_chomp,               /*yaw*/   0, /*pos*/   260,   735,  1920),
     MACRO_OBJECT(/*preset*/ macro_breakable_box_no_coins,    /*yaw*/   0, /*pos*/ -3979,     0,  6827),
     MACRO_OBJECT(/*preset*/ macro_goomba,                    /*yaw*/   0, /*pos*/ -2713,   152,  5778),
