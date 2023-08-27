@@ -197,19 +197,19 @@ ALIGNED8 static const u8 texture_hud_char_percent[] = {
 #endif
 
 ALIGNED8 static const u8 texture_hud_char_multiply[] = {
-#include "textures/segment2/segment2.05600.rgba16.inc.c"
+#include "textures/segment2/custom.segment2.05600.rgba16.inc.c"
 };
 
 ALIGNED8 static const u8 texture_hud_char_coin[] = {
-#include "textures/segment2/segment2.05800.rgba16.inc.c"
+#include "textures/segment2/custom.segment2.05800.rgba16.inc.c"
 };
 
 ALIGNED8 static const u8 texture_hud_char_mario_head[] = {
-#include "textures/segment2/segment2.05A00.rgba16.inc.c"
+#include "textures/segment2/custom.segment2.05A00.rgba16.inc.c"
 };
 
 ALIGNED8 static const u8 texture_hud_char_star[] = {
-#include "textures/segment2/segment2.05C00.rgba16.inc.c"
+#include "textures/segment2/custom.segment2.05C00.rgba16.inc.c"
 };
 
 #if defined(VERSION_JP) || defined(VERSION_SH)
