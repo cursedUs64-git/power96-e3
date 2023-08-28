@@ -1,5 +1,3 @@
-# P.S some code is broken for now til i figure out a solution, if anyone can then please pull request it.
-
 # Super Mario 64
 
 - This repo contains a full decompilation of Super Mario 64 (J), (U), and (E) with minor exceptions in the audio subsystem.
