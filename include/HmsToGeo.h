@@ -151,11 +151,11 @@
 #define newrabbbit_hold_tbl mips_seg6_animindex_06013170
 
 // Collision Data for the .flk file type(incomplete)
-//#define	BGCHECKCODE_PLANEEND          	SURFACE_NO_CAM_COLLISION
-//#define	BGCHECKCODE_ALLEND            	66
-//#define	BGCHECKCODE_POINT             	64
-//#define	BGCHECKCODE_NORMAL            	 0
-//#define dosun_info thwomp_seg5_collision_0500B7D0
-//#define dosun_info2 thwomp_seg5_collision_0500B92C
+#define	BGCHECKCODE_PLANEEND          	SURFACE_NO_CAM_COLLISION
+#define	BGCHECKCODE_ALLEND            	66
+#define	BGCHECKCODE_POINT             	64
+#define	BGCHECKCODE_NORMAL            	 0
+#define dosun_info thwomp_seg5_collision_0500B7D0
+#define dosun_info2 thwomp_seg5_collision_0500B92C
 
 // Mario Animation names

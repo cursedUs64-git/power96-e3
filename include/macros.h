@@ -73,6 +73,6 @@
 
 #define	C_SCALE	4
 #define ShapeColor(R,G,B) {{R/C_SCALE ,G/C_SCALE ,B/C_SCALE ,0 ,R/C_SCALE ,G/C_SCALE ,B/C_SCALE ,0 },{ R,G,B,0, R,G,B,0, LIGHT_X, LIGHT_Y, LIGHT_Z, 0} }
-
+#define	softspriteON	1
 
 #endif // MACROS_H

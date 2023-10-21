@@ -52,7 +52,7 @@ s8 sDebugLvSelectCheckFlag = FALSE;
 
 s8 sDebugPage = DEBUG_PAGE_MIN;
 s8 sNoExtraDebug = FALSE;
-s8 sDebugStringArrPrinted = FALSE;
+s8 sDebugStringArrPrinted = TRUE;
 s8 sDebugSysCursor = 0;
 s8 sDebugInfoButtonSeqID = 0;
 s16 sDebugInfoButtonSeq[] = { U_CBUTTONS, L_CBUTTONS, D_CBUTTONS, R_CBUTTONS, -1 };
