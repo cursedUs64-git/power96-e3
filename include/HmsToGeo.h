@@ -1,4 +1,4 @@
-/* 
+/*
     Gigaleak header file made by
             JoshTheBosh
 */
@@ -129,7 +129,7 @@
 #define _HmsBasic_enemySegmentRomEnd _common0_geoSegmentRomEnd
 
 // required converter for the .sou file type to function you need to have the gex.h this is a file i cannot provide this since it is part of the gigaleak so for this to be legal i cannot provide it you must have it
-// once aquired you can put it here 
+// once aquired you can put it here
 
 
 // Animation Data
