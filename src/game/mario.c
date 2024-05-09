@@ -1290,6 +1290,9 @@ void update_mario_button_inputs(struct MarioState *m) {
     } else if (m->framesSinceB < 0xFF) {
         m->framesSinceB++;
     }
+    if (m->action != ACT_DEBUG_FREE_MOVE && m->controller->buttonPressed & L_JPAD) {
+        set_mario_action(m, ACT_DEBUG_FREE_MOVE, 0);
+    }
 }
 
 /**

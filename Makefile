@@ -85,7 +85,7 @@ endif
 # USE_QEMU_IRIX - when ido is selected, select which way to emulate IRIX programs
 #   1 - use qemu-irix
 #   0 - statically recompile the IRIX programs
-USE_QEMU_IRIX ?= 0
+USE_QEMU_IRIX ?= 1
 $(eval $(call validate-option,USE_QEMU_IRIX,0 1))
 
 ifeq      ($(COMPILER),ido)

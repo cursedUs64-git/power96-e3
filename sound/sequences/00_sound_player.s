@@ -2074,11 +2074,9 @@ chan_setlayer 0, .layer_C3C
 chan_end
 
 .layer_C3C:
-#if defined(VERSION_EU) || defined(VERSION_SH)
-  layer_transpose 2
-#endif
-layer_portamento 0x82, 41, 127
-layer_note1 37, 0x14, 127
+layer_transpose 254
+layer_portamento 0x82, 39, 200
+layer_note1 38, 0x24, 120
 layer_end
 
 .sound_mario_jump_wah:
@@ -2088,9 +2086,9 @@ chan_setlayer 0, .layer_C4C
 chan_end
 
 .layer_C4C:
-layer_transpose -2
+layer_transpose 257
 .layer_C4E:
-layer_note1 38, 0x18, 127
+layer_note1 38, 0x18, 120
 layer_end
 
 .sound_mario_jump_yah:
@@ -2100,7 +2098,7 @@ chan_setlayer 0, .layer_C5A
 chan_end
 
 .layer_C5A:
-layer_transpose -2
+layer_transpose 257
 .layer_C5C:
 layer_portamento 0x82, 39, 200
 layer_note1 38, 0x24, 120
@@ -2117,7 +2115,7 @@ chan_end
   layer_transpose 1
 #endif
 layer_portamento 0x82, 44, 200
-layer_note1 39, 0x30, 127
+layer_note1 39, 0x30, 128
 layer_end
 
 .sound_mario_yahoo:
@@ -2127,7 +2125,7 @@ chan_setlayer 0, .layer_C7C
 chan_end
 
 .layer_C7C:
-layer_transpose -2
+layer_transpose 254
 layer_somethingon
 layer_portamento 0x85, 39, 255
 layer_note1 42, 0x1e, 110
@@ -2141,7 +2139,7 @@ chan_setlayer 0, .layer_C92
 chan_end
 
 .layer_C92:
-layer_transpose -2
+layer_transpose 254
 layer_portamento 0x81, 41, 255
 layer_note1 38, 0x2b, 115
 layer_end
@@ -2153,7 +2151,7 @@ chan_setlayer 0, .layer_CA4
 chan_end
 
 .layer_CA4:
-layer_transpose -2
+layer_transpose 254
 layer_note1 44, 0x1e, 110
 layer_end
 
@@ -2164,7 +2162,7 @@ chan_setlayer 0, .layer_CB2
 chan_end
 
 .layer_CB2:
-layer_transpose -3
+layer_transpose 253
 layer_note1 39, 0x1c, 127
 layer_end
 
@@ -2175,7 +2173,7 @@ chan_setlayer 0, .layer_CC0
 chan_end
 
 .layer_CC0:
-layer_transpose -2
+layer_transpose 254
 layer_note1 40, 0x30, 110
 layer_end
 
@@ -2186,7 +2184,7 @@ chan_setlayer 0, .layer_CCE
 chan_end
 
 .layer_CCE:
-layer_transpose -2
+layer_transpose 254
 layer_note1 40, 0x44, 105
 layer_end
 
@@ -2197,7 +2195,7 @@ chan_setlayer 0, .layer_CDC
 chan_end
 
 .layer_CDC:
-layer_transpose -2
+layer_transpose 254
 layer_note1 41, 0x30, 120
 layer_end
 
