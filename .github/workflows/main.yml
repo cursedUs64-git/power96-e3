@@ -27,7 +27,7 @@ jobs:
     - name: Compile
       run: make -j32 VERSION=jp
     - name: Publish Artifact
-      uses: actions/upload-artifact@v2.2.4
+      uses: actions/upload-artifact@v4
       with:
         name: linuxBuild
         path: 'build/jp/sm64.jp.z64'
