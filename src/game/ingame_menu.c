@@ -1740,8 +1740,8 @@ void render_dialog_entries(void) {
             }
 
             if (gDialogBoxType == DIALOG_TYPE_ROTATE) {
-                gDialogBoxOpenTimer -= 7.5;
-                gDialogBoxScale -= 1.5;
+                gDialogBoxOpenTimer -= 5.0;
+                gDialogBoxScale -= 1.0;
             } else {
                 gDialogBoxOpenTimer -= 10.0;
                 gDialogBoxScale -= 2.0;
@@ -1786,7 +1786,7 @@ void render_dialog_entries(void) {
             break;
         case DIALOG_STATE_CLOSING:
             if (gDialogBoxOpenTimer == 20.0f) {
-                level_set_transition(0, NULL);
+                level_set_transition(0, 0);
                 play_sound(SOUND_MENU_MESSAGE_DISAPPEAR, gGlobalSoundSource);
 
                 if (gDialogBoxType == DIALOG_TYPE_ZOOM) {
@@ -1796,8 +1796,8 @@ void render_dialog_entries(void) {
                 gDialogResponse = gDialogLineNum;
             }
 
-            gDialogBoxOpenTimer = gDialogBoxOpenTimer + 10.0f;
-            gDialogBoxScale = gDialogBoxScale + 2.0f;
+            gDialogBoxOpenTimer = gDialogBoxOpenTimer + 5.0f;
+            gDialogBoxScale = gDialogBoxScale + 1.0f;
 
             if (gDialogBoxOpenTimer == DEFAULT_DIALOG_BOX_ANGLE) {
                 gDialogBoxState = DIALOG_STATE_OPENING;
