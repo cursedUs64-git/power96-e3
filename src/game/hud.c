@@ -269,9 +269,9 @@ void render_hud_power_meter(void) {
  * Renders the amount of lives Mario has.
  */
 void render_hud_mario_lives(void) {
-    print_text(31, 210, ","); // 'Mario Head' glyph
-    print_text(47, 210, "*"); // 'X' glyph
-    print_text_fmt_int(61, 210, "%d", gHudDisplay.lives);
+    print_text(29, 210, ","); // 'Mario Head' glyph
+    print_text(45, 210, "*"); // 'X' glyph
+    print_text_fmt_int(59, 210, "%d", gHudDisplay.lives);
 }
 /**
  * Renders the amount of coins collected.
