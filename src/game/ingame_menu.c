@@ -2716,7 +2716,7 @@ s16 render_pause_courses_and_castle(void) {
 #endif
 
 #define HUD_PRINT_HISCORE 0
-#define HUD_PRINT_CONGRATULATIONS 1
+#define HUD_PRINT_CONGRATULATIONS 0
 
 void print_hud_course_complete_string(s8 str) {
 #ifdef VERSION_EU
@@ -2735,24 +2735,6 @@ void print_hud_course_complete_string(s8 str) {
 
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_begin);
     gDPSetEnvColor(gDisplayListHead++, colorFade, colorFade, colorFade, 255);
-
-    if (str == HUD_PRINT_HISCORE) {
-#ifdef VERSION_EU
-        print_hud_lut_string(HUD_LUT_GLOBAL,
-                             get_str_x_pos_from_center_scale(160, textHiScore[gInGameLanguage], 12.0f),
-                             36, textHiScore[gInGameLanguage]);
-#else
-        // print_hud_lut_string(HUD_LUT_GLOBAL, TXT_HISCORE_X, TXT_HISCORE_Y, textHiScore);
-#endif
-    } else { // HUD_PRINT_CONGRATULATIONS
-#ifdef VERSION_EU
-        print_hud_lut_string(
-            HUD_LUT_GLOBAL,
-            get_str_x_pos_from_center_scale(160, textCongratulations[gInGameLanguage], 12.0f), 67,
-            textCongratulations[gInGameLanguage]);
-#else
-#endif
-    }
 
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_end);
 }
@@ -2778,7 +2760,7 @@ void print_hud_course_complete_coins(s16 x, s16 y) {
         gCourseCompleteCoins = gHudDisplay.coins;
 
         if (gGotFileCoinHiScore) {
-            print_hud_course_complete_string(HUD_PRINT_HISCORE);
+            // print_hud_course_complete_string(HUD_PRINT_HISCORE);
         }
     } else {
         if ((gCourseDoneMenuTimer & 1) || gHudDisplay.coins > 70) {
@@ -2903,7 +2885,7 @@ void render_course_complete_lvl_info_and_hud_str(void) {
         gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, gDialogTextAlpha);
         // print_generic_string(TXT_NAME_X2, 132, name);
 #ifndef VERSION_EU
-        print_generic_string(TXT_CLEAR_X2, 132, textClear);
+        // print_generic_string(TXT_CLEAR_X2, 132, textClear);
 #endif
         gSPDisplayList(gDisplayListHead++, dl_ia_text_end);
         // print_hud_course_complete_string(HUD_PRINT_CONGRATULATIONS);
