@@ -1,5 +1,5 @@
 #include <PR/ultratypes.h>
-
+#include <ultra64.h>
 #include "game/memory.h"
 #include "game/segment2.h"
 #include "game/segment7.h"
@@ -87,7 +87,7 @@ Gfx *geo_intro_super_mario_64_logo(s32 state, struct GraphNode *node, UNUSED voi
         gSPDisplayList(dlIter++, &gfx_mario64_logo_gfx64); // draw model
         gSPPopMatrix(dlIter++, G_MTX_MODELVIEW);
         gSPEndDisplayList(dlIter);
-
+        
         sIntroFrameCounter++;
     }
     return dl;
