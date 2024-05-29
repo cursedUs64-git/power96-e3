@@ -1,3 +1,10 @@
+# Power96-E3
+
+## Credits:
+
+**SuperNarekGlitchy8 (Alt name(s): SNG8)**
+**SuperMarioXerox13 (Alt name(s): WaterTale_12345, xerox)**
+
 # Super Mario 64
 
 - This repo contains a full decompilation of Super Mario 64 of the following releases: Japan (jp), North America (us), Europe (eu), and Shindou (sh).
