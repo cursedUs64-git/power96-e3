@@ -1,6 +1,8 @@
 #ifndef SURFACE_TERRAINS_H
 #define SURFACE_TERRAINS_H
 
+#include "funlike.h" // surface terrain
+
 // Surface Types
 #define SURFACE_DEFAULT                      0x0000 // Environment default
 #define SURFACE_BURNING                      0x0001 // Lava / Frostbite (in SL), but is used mostly for Lava

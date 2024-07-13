@@ -1214,6 +1214,7 @@ s32 init_level(void) {
                     } else {
                         set_mario_action(gMarioState, ACT_INTRO_CUTSCENE, 0);
                         val4 = TRUE;
+                        // set_mario_action(gMarioState, ACT_IDLE, 0);
                     }
                 }
             }
