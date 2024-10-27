@@ -1,4 +1,4 @@
-# Power96-E3
+# Power96-E3 (CANCELLED, NEW PROJET COMING SOON)
 
 ## Credits:
 
