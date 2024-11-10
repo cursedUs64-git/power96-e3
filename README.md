@@ -1,4 +1,8 @@
-# Power96-E3 (CANCELLED, NEW PROJET COMING SOON)
+# Power96-E3
+
+## *The First E3 B-Roll Project to not get cancelled**
+
+* *(not confirmed LMAO)
 
 ## Credits:
 
