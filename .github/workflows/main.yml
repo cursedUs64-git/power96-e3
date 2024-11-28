@@ -31,5 +31,3 @@ jobs:
       with:
         name: linuxBuild
         path: 'build/jp/sm64.jp.z64'
-
-// Yeah
